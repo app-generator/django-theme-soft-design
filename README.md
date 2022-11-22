@@ -10,7 +10,7 @@ Modern template for **Django** coded on top of **Soft UI Design**, an open-sourc
 
 **Links & Resources**
 
-- UI Kit: [Soft UI Design](https://www.creative-tim.com/product/soft-ui-design-system?AFFILIATE=128200) `v3.0.4` by Creative-Tim
+- UI Kit: [Soft UI Design](https://www.creative-tim.com/product/soft-ui-design-system?AFFILIATE=128200) `v1.0.9` by Creative-Tim
 - [Django Theme Soft UI Design](#) - `playground project` (coming soon)
 
 <br />
