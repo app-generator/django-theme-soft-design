@@ -1,6 +1,7 @@
 # CHANGELOG
 
-## [0.0.1] 2022-11-17
+## [0.0.1] 2022-11-22
 ### Initial Release
 
-- Minimal version
+- Create Codebase
+- UI is not available yet
