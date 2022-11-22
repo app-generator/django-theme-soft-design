@@ -10,8 +10,8 @@ Modern template for **Django** coded on top of **Soft UI Design**, an open-sourc
 
 **Links & Resources**
 
-- UI Kit: [Material Design BS5](https://www.creative-tim.com/product/soft-ui-design-system?AFFILIATE=128200) `v3.0.4` by Creative-Tim
-- [Django Theme MKit](#) - `playground project` (coming soon)
+- UI Kit: [Soft UI Design](https://www.creative-tim.com/product/soft-ui-design-system?AFFILIATE=128200) `v3.0.4` by Creative-Tim
+- [Django Theme Soft UI Design](#) - `playground project` (coming soon)
 
 <br />
 
@@ -107,4 +107,4 @@ $ python manage.py runserver # default port 8000
 <br />
 
 ---
-**[Django Admin Material](https://github.com/app-generator/django-admin-material-dashboard)** - Modern Admin Interface provided by **[AppSeed](https://appseed.us/)**
+**[Django Theme Soft](https://github.com/app-generator/django-theme-soft-design)** - Modern KIT Integration provided by **[AppSeed](https://appseed.us/)**
