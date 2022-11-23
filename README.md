@@ -2,16 +2,15 @@
 
 Modern template for **Django** coded on top of **Soft UI Design**, an open-source `Boostrap 5` design from `Creative-Tim`. 
 
-> NOTE: The theme aims to style the pages for the common users (not admin section).
-
-**Design Version**: https://github.com/creativetimofficial/soft-ui-design-system `v1.0.9`
+> Actively supported by [AppSeed](https://appseed.us/) via `Email` and `Discord`.
 
 <br>
 
 **Links & Resources**
 
+- [Django Theme Soft](https://django-soft-ui-free.appseed-srv1.com/) - LIVE Demo
+- [Django Theme Soft](https://github.com/app-generator/django-theme-soft-playground) - `playground project` 
 - UI Kit: [Soft UI Design](https://www.creative-tim.com/product/soft-ui-design-system?AFFILIATE=128200) `v1.0.9` by Creative-Tim
-- [Django Theme Soft UI Design](#) - `playground project` (coming soon)
 
 <br />
 
@@ -19,7 +18,7 @@ Modern template for **Django** coded on top of **Soft UI Design**, an open-sourc
 
 <br />
 
-## Why `Django Material Kit`
+## Why `Django Soft UI Design`
 
 - Modern `Bootstrap 5` Design
 - `Responsive Interface`
@@ -70,12 +69,12 @@ INSTALLED_APPS = [
 > Add `theme_soft_design` urls in your Django Project `urls.py` file.
 
 ```python
-    from django.urls import path, include
+from django.urls import path, include             # <-- UPD with 'include' directive 
 
-    urlpatterns = [
-        ...
-        path('', include('theme_soft_design.urls')),
-    ]
+urlpatterns = [
+    ...
+    path('', include('theme_soft_design.urls')),  #  <-- NEW
+]
 ```
 
 <br />
@@ -103,10 +102,6 @@ $ python manage.py runserver # default port 8000
 ```
 
 <br />
-
-## How to use the theme
-
-> Ordinary users set up
 
 ## Screenshots
 
