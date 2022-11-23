@@ -1,6 +1,6 @@
 # [Django Theme Soft](https://github.com/app-generator/django-theme-soft-design)
 
-Modern template for **Django** coded on top of **Soft UI Design**, an open-source `Boostrap 5` design from `Creative-Tim`. 
+Modern template for **Django** coded on top of **Soft Design**, an open-source `Boostrap 5` design from `Creative-Tim`. 
 
 > Actively supported by [AppSeed](https://appseed.us/) via `Email` and `Discord`.
 
