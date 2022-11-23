@@ -105,7 +105,19 @@ $ python manage.py runserver # default port 8000
 
 ## Screenshots
 
-@todo
+![Django Theme Soft UI Design - Cover.](https://user-images.githubusercontent.com/51070104/203517522-f913cc7f-6aa9-4f71-9582-74e1923df05d.jpg)
+
+<br />
+
+> [Django Theme Soft](https://github.com/app-generator/django-theme-soft-design) - `Author Page`
+
+![Django Theme Soft UI Design - Author Page.](https://user-images.githubusercontent.com/51070104/203517708-124222e5-3823-4b27-82ca-7268dcea2699.jpg)
+
+<br />
+
+> [Django Theme Soft](https://github.com/app-generator/django-theme-soft-design) - `Team Component`
+
+![Django Theme Soft UI Design - Team Component.](https://user-images.githubusercontent.com/51070104/203517888-0d327a87-48fc-4240-b009-fca1646c2782.jpg)
 
 <br />
 
