@@ -59,6 +59,14 @@ INSTALLED_APPS = [
 
 <br />
 
+> Update project `settings.py` file to include (at the end of the file):
+```python
+    LOGIN_REDIRECT_URL = '/'
+    EMAIL_BACKEND = 'django.core.mail.backends.console.EmailBackend'
+```
+
+<br />
+
 > Add `theme_soft_design` urls in your Django Project `urls.py` file.
 
 ```python
