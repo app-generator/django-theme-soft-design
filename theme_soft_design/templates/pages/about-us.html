@@ -1,4 +1,4 @@
-{% extends 'layouts/base_background.html' %}
+{% extends 'layouts/base_sections.html' %}
 {% load static %}
 
 {% block title %} Material Kit 2 by Creative Tim {% endblock title %}
@@ -370,9 +370,6 @@
   
   {% block javascrips %}
   
-    <!--  Plugin for TypedJS, full documentation here: https://github.com/inorganik/CountUp.js -->
-    <script src="{% static 'js/plugins/countup.min.js' %}"></script>
-
     <script>
       // get the element to animate
       var element = document.getElementById('count-stats');

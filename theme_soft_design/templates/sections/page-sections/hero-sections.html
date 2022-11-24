@@ -1,4 +1,4 @@
-{% extends 'layouts/base_background.html' %}
+{% extends 'layouts/base_sections.html' %}
 {% load static %}
 
 {% block title %} Soft UI Design System by Creative Tim {% endblock title %}
@@ -304,10 +304,6 @@
 
   {% block javascripts %}
   
-    <!--  Plugin for TypedJS, full documentation here: https://github.com/inorganik/CountUp.js -->
-    <script src="{% static 'js/plugins/countup.min.js' %}"></script>
-    {% include 'includes/scripts_sections.html' %}
-
     <script>
       if (document.getElementById('typed')) {
         var typed = new Typed("#typed", {
