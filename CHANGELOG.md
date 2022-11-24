@@ -3,7 +3,7 @@
 ## [1.0.3] 2022-11-24
 ### Improvements
 
-- Fix links accross the theme
+- Fix links across the theme
 
 ## [1.0.2] 2022-11-23
 ### Improvements
