@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## [1.0.5] 2022-11-24
+### Improvements
+
+- Fix links
+  - `Navigation bar` 
+
 ## [1.0.4] 2022-11-24
 ### Improvements
 
