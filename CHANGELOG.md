@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## [1.0.7] 2022-11-24
+### Improvements
+
+- Fix JS Errors 
+
 ## [1.0.6] 2022-11-24
 ### Improvements
 
