@@ -115,4 +115,4 @@ def modals(request):
   return render(request, 'sections/attention-catchers/modals.html')
 
 def tooltips(request):
-  return render(request, 'sections/attention-catchers/toltips-popovers.html')
+  return render(request, 'sections/attention-catchers/tooltips-popovers.html')
