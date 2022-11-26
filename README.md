@@ -9,7 +9,7 @@ Modern template for **Django** coded on top of **Soft Design**, an open-source `
 **Links & Resources**
 
 - [Django Theme Soft](https://django-soft-ui-free.appseed-srv1.com/) - LIVE Demo
-- [Django Theme Soft](https://github.com/app-generator/django-theme-soft-playground) - `playground project` 
+- [Django Theme Soft](https://github.com/app-generator/django-theme-soft-design_p) - `playground project` 
 - UI Kit: [Soft UI Design](https://www.creative-tim.com/product/soft-ui-design-system?AFFILIATE=128200) `v1.0.9` by Creative-Tim
 
 <br />
