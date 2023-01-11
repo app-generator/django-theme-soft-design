@@ -1,5 +1,11 @@
 # CHANGELOG
 
+## [1.0.8] 2023-01-11
+### Changes
+
+- DOCS Update
+- Curate Links (minor) 
+
 ## [1.0.7] 2022-11-24
 ### Improvements
 
