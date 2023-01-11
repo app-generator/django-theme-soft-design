@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## [1.0.9] 2023-01-11
+### Changes
+
+- Fix Icon in Navigation (minor)
+
 ## [1.0.8] 2023-01-11
 ### Changes
 
