@@ -1,6 +1,6 @@
 # [Django Theme Soft Design](https://appseed.us/product/soft-ui-design/django/)
 
-Modern Theme for **Django** that covers authentication pages (registration included) crafted on top of **[Material Kit](https://appseed.us/product/soft-ui-design/django/)**, an open-source `Bootstrap 5` design from `Creative-Tim`.
+Modern Theme for **Django** that covers authentication pages (registration included) crafted on top of **[Soft UI Design](https://appseed.us/product/soft-ui-design/django/)**, an open-source `Bootstrap 5` design from [Creative-Tim](https://www.creative-tim.com/?AFFILIATE=128200).
 
 > Actively supported by [AppSeed](https://appseed.us/) via `Email` and `Discord`.
 
@@ -8,9 +8,9 @@ Modern Theme for **Django** that covers authentication pages (registration inclu
 
 **Links & Resources**
 
-- [Django Theme Soft Design](https://appseed.us/product/soft-ui-design/django/) - `Product page`
+- [Django Soft Design](https://appseed.us/product/soft-ui-design/django/) - `Product page`
   - `Features`: Fully-configured, `CI/CD` via Render
-- UI Kit: `Soft UI Desig` (Bootstrap 5) by Creative-Tim
+- UI Kit: [Soft Design System](https://www.creative-tim.com/product/soft-ui-design-system?AFFILIATE=128200) (Bootstrap 5) by `Creative-Tim`
 - **Sections Covered**: 
   - `All pages` managed by `Django.contrib.AUTH`
   - `Registration` page
@@ -109,9 +109,58 @@ $ python manage.py runserver # default port 8000
 
 <br />
 
+## How to Customize 
+
+When a template file is loaded, `Django` scans all template directories starting from the ones defined by the user, and returns the first match or an error in case the template is not found. 
+The theme used to style this starter provides the following files: 
+
+```bash
+# This exists in ENV: LIB/theme_soft_design
+< UI_LIBRARY_ROOT >                      
+   |
+   |-- templates/                     # Root Templates Folder 
+   |    |          
+   |    |-- accounts/       
+   |    |    |-- sign-in.html         # Sign IN Page
+   |    |    |-- sign-up.html         # Sign UP Page
+   |    |
+   |    |-- includes/       
+   |    |    |-- footer.html          # Footer component
+   |    |    |-- navigation.html      # Navigation Bar
+   |    |    |-- scripts.html         # Scripts Component
+   |    |
+   |    |-- layouts/       
+   |    |    |-- base.html            # Masterpage
+   |    |
+   |    |-- pages/       
+   |         |-- index.html           # Dashboard Page
+   |         |-- author.html          # Profile Page
+   |         |-- *.html               # All other pages
+   |    
+   |-- ************************************************************************
+```
+
+When the project requires customization, we need to copy the original file that needs an update (from the virtual environment) and place it in the template folder using the same path. 
+
+For instance, if we want to customize the `index.html` these are the steps:
+
+- `Step 1`: create the `templates` DIRECTORY inside your app 
+- `Step 2`: configure the project to use this new template directory
+  - Edit `settings.py` TEMPLATES section 
+- `Step 3`: copy the `index.html` from the original location (inside your ENV) and save it to the `YOUR_APP/templates` DIR
+  - Source PATH: `<YOUR_ENV>/LIB/theme_soft_design/templates/pages/index.html`
+  - Destination PATH: `YOUR_APP/templates/pages/index.html`
+- Edit the `index.html` (Destination PATH)     
+
+At this point, the default version of the `index.html` shipped in the library is ignored by Django.
+
+In a similar way, all other files and components can be customized easily.
+
+<br />
+
 ## [PRO Version](https://appseed.us/product/soft-ui-design-pro/django/)   
 
-**Material Kit 2** is a premium design crafted by the `Creative-Tim` agency on top of Bootstrap 5 Framework. Designed for those who like bold elements and beautiful websites, Material Kit 2 is made of hundreds of elements, designed blocks, and fully coded pages built with an impressive level of quality.
+**Soft UI Design** is a premium design crafted by the `Creative-Tim` agency on top of Bootstrap 5 Framework. Designed for those who like bold elements and beautiful websites, **Soft Design PRO** is made of hundreds of elements, designed blocks, and fully coded pages built with an impressive level of quality.
 
 - [Django Soft Design PRO](https://appseed.us/product/soft-ui-design-pro/django/) - product page
   - `Enhanced UI` - more pages and components

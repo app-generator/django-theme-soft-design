@@ -1,5 +1,10 @@
 # CHANGELOG
 
+## [1.0.10] 2023-02-09
+### Changes
+
+- DOCS Update (readme)
+
 ## [1.0.9] 2023-01-11
 ### Changes
 
