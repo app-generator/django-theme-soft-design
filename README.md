@@ -22,7 +22,7 @@ Modern Theme for **Django** that covers authentication pages (registration inclu
 
 <br />
 
-## Why `Django Theme Material Kit`
+## Why `Django Theme Soft Design`
 
 - Modern [Bootstrap 5](https://www.admin-dashboards.com/bootstrap-5-templates/) Design
 - `Minimal Template` overriding
