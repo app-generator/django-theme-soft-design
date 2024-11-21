@@ -8,14 +8,14 @@ os.chdir(os.path.normpath(os.path.join(os.path.abspath(__file__), os.pardir)))
 
 setup(
 name='django-theme-soft-design',
-version='1.0.10',
+version='1.0.11',
 zip_safe=False,
 packages=find_packages(),
 include_package_data=True,
 description='Modern template for Django (Material Kit)',
 long_description=README,
 long_description_content_type="text/markdown",
-url='https://appseed.us/product/soft-ui-design/django/',
+url='https://app-generator.dev/docs/products/django-libs/theme-soft-design.html',
 author='AppSeed.us',
 author_email='support@appseed.us',
 license='MIT License',
