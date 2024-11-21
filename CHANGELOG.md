@@ -1,5 +1,12 @@
 # CHANGELOG
 
+## [1.0.11] 2024-11-21
+### Changes
+
+- [Django Soft Design](https://app-generator.dev/docs/products/django-libs/theme-soft-design.html) - Documentation & Support Links
+- [Django Soft Design](https://app-generator.dev/product/soft-ui-design/django/) - The product that uses the library
+- [Getting Started with Django](https://app-generator.dev/docs/technologies/django/index.html) - Learn how to code **Django** Projects
+
 ## [1.0.10] 2023-02-09
 ### Changes
 
