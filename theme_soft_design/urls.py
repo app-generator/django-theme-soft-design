@@ -4,9 +4,9 @@ from django.contrib.auth import views as auth_views
 
 
 urlpatterns = [
-    path('', views.index),
-    path('about-us/', views.about_us, name='about-us'),
-    path('contact-us/', views.contact_us, name='contact-us'),
+    path('', views.index, name="index"),
+    path('about-us/', views.about_us, name='about_us'),
+    path('contact-us/', views.contact_us, name='contact_us'),
     path('author/', views.author, name='author'),
 
     # Authentication
